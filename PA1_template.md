@@ -73,7 +73,11 @@ hist(StepsTotal$steps, main = "Total steps by day",
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+=======
+<img src="./PA1_template_files/figure-html/unnamed-chunk-19-1.png" title="" alt="" width="672" />
+>>>>>>> FETCH_HEAD
 =======
 <img src="./PA1_template_files/figure-html/unnamed-chunk-19-1.png" title="" alt="" width="672" />
 >>>>>>> FETCH_HEAD
@@ -108,7 +112,11 @@ plot(row.names(time_series), time_series, type = "l", xlab = "5-min interval",
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png) 
+=======
+<img src="./PA1_template_files/figure-html/unnamed-chunk-21-1.png" title="" alt="" width="672" />
+>>>>>>> FETCH_HEAD
 =======
 <img src="./PA1_template_files/figure-html/unnamed-chunk-21-1.png" title="" alt="" width="672" />
 >>>>>>> FETCH_HEAD
@@ -163,7 +171,11 @@ qplot(total.steps, binwidth = 1000, xlab = "Total number of steps taken each day
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png) 
+=======
+<img src="./PA1_template_files/figure-html/unnamed-chunk-25-1.png" title="" alt="" width="672" />
+>>>>>>> FETCH_HEAD
 =======
 <img src="./PA1_template_files/figure-html/unnamed-chunk-25-1.png" title="" alt="" width="672" />
 >>>>>>> FETCH_HEAD
@@ -232,6 +244,7 @@ data_weekdays <- data_by_weekdays(data)
 Plotting average number of steps on weekends and weekdays
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```r
 ggplot(data_weekdays, aes(x=interval, y=steps)) + 
@@ -243,5 +256,7 @@ ggplot(data_weekdays, aes(x=interval, y=steps)) +
 ![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
 
 Weekday activity has highest peak, although weekend activity has more activity with more peaks.
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
